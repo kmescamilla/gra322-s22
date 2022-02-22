@@ -20,3 +20,14 @@ h1 {
 .grid > * {
     grid-column: main;
 }
+
+header {
+    background-color: var(--gray-dark);
+    color: #fff
+}
+
+.overview {
+    background-color: var(--gray);
+    color: #fff;
+    padding: 4rem 0; 
+}
