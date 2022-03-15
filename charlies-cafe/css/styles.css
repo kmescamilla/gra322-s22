@@ -1,35 +1,49 @@
 html{
-    --gray: #444;
-    --gray-dark: #333;
-    --gray-light: #f2f2f2;
+    --off-white: #F5F5F5;
+    --light-borwn: #9F7E69;
+    --brown: #280000;
+    --forest-green: #093824; 
+    --highlight-green: #6DA34D;
 }
 
 body {
-    font-family: 'Libre Franklin', sans-serif;
+    
+    font-family: 'Work Sans', sans-serif;
     font-weight: 300;
 }
 
+.big-title{
+    font-family: 'Libre Baskerville', serif;
+ }
+
 h1 {
-    color: #fff;
-    font-weight: 300;
+    color: var(--brown);
+    font-weight: 500;
     font-size: 18px;
     letter-spacing: 1px;
 }
 
 h2{
-    font-size: 14px;
+    color: var(--forest-green);
+    font-size: 18 px;
     font-weight: 500;
     letter-spacing: 2px;
     margin-bottom: 1rem;
-    text-transform: uppercase;
 }
 
 p {
-letter-spacing: 1px;
-line-height: 1.5;
-margin-bottom: 1rem;
+    color: var(--brown);
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
 }
 
+ul {
+    color: var(--brown);
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
 .grid {
     display: grid;
     grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
@@ -40,12 +54,12 @@ margin-bottom: 1rem;
 }
 
 header {
-    background-color: var(--gray-dark);
+    background-color: var(--light-borwn);
     padding: 1rem 0;
 }
 
 .overview {
-    background-color: var(--gray);
+    background-color: var(--off-white);
     color: #fff;
     padding: 4rem 0; 
 }
@@ -63,10 +77,18 @@ figcaption {
     letter-spacing: 1px;
 }
 
+.footer-type {
+    color: var(--off-white)
+}
+
 @media screen and (min-width: 800px) {
     .two-columns { 
         display: grid;
         grid-gap: 3rem;
         grid-template-columns: 1fr 1fr;
     }
+}
+
+.w3-container {
+    background-color: var(--forest-green);
 }
