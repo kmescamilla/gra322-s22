@@ -26,18 +26,18 @@
   background-position: center;
   background-size: cover;
   background-image: url("/img/rizky-subagja-IBhJivtPqHQ-unsplash.jpeg");
-  min-height: 80%;
-}</style>
+  min-height: 80%;}
+</style>
 
 </head>
 
 <!-- Header with image -->
 <header class="bgimg w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-    <span class="w3-tag">Open from 7am to 4pm</span>
+    <span class="box-time">Open from 7am to 4pm</span>
   </div>
   <div class="w3-display-middle w3-center">
-    <span class="w3-text-white big-title" style="font-size:100px";>
+    <span class="big-title" style="font-size:100px";>
       Charlie's<br>Cafe
     </span>
   </div>
@@ -49,43 +49,161 @@
 <body>
   <!-- Add your content here -->
   <header class= "grid"> 
-    <h1>Arizona State Univeristy's Best Cafe Spot</h1>
+    <h1>Arizona State Univeristy's Best Cafe Spot | Call: (480) 965-3515</h1>
   </header>
 
 
-  <section class= "overview grid">
+  <section class= "menu grid">
     <div class="two-columns"> 
       <div> 
-        <h2>Coffee Menu</h2> 
-      
-      
-        <p>Panini
-          $3.50 
-          Muffins
-          $3.50
+        <style>
+          table {
+            border-collapse: collapse;
+            width: 50%;
+          }
           
-          Pastries
-          $3.50
-          Jimmy Dean’s
-          $3.50
-
-          Bagel
-          $3.50
-        </p>
+          th, td {
+            padding: 6px;
+            line-height: 25px;
+            text-align: left;
+            border-bottom: 2px dotted #ddd;
+          }
+          
+          tr:hover {background-color: #6DA34D;}
+         </style>
       </div>
 
       <div>
-        <figure>
-          <img src="img/intro-image.jpg" alt= "Scan of two pages of a book" />
-          <figcaption> Image Caption. </figcaption>
-        </figure>
-      </div> 
+        <h2>Coffee</h2>
+        <p>All things coffee, both hot and iced.</p>
+          
+         <table>
+            <tr>
+              <th>Item</th>
+              <th>Price</th>
+            </tr>
+            <tr>
+              <td>Americano</td>
+              <td>sm $3.00 <br> lg $4.00</td>
+            </tr>
+            <tr>
+              <td>Brewed Coffee</td>
+              <td>sm $3.00 <br> lg $4.00</td>
+            </tr>
+            <tr>
+              <td>Cappuccino</td>
+              <td>sm $3.00 <br> lg $4.00</td>
+            </tr>
+            <tr>
+              <td>Macchiato</td>
+              <td>sm $3.00 <br> lg $4.00</td>
+            </tr>
+            <tr>
+              <td>Hot Latte</td>
+              <td>sm $4.75 <br> lg $5.25</td>
+            </tr>
+            <tr>
+              <td>Espresso</td>
+              <td>sm $3.00 </td>
+            </tr>
+            <tr>
+              <td>Cold Brew</td>
+              <td>sm $4.50 </td>
+            </tr>
+            <tr>
+              <td>Iced Americano</td>
+              <td>sm $3.00 <br> lg $4.00</td>
+            </tr>
+            <tr>
+              <td>Iced Latte</td>
+              <td>sm $4.75 <br> lg $5.25</td>
+            </tr>
+         </table>
+      </div>
+
+      <div>
+        <h2>Not Coffee</h2>
+        <p>Yummy drinks that are not coffee.</p>
+         <table>
+          <tr>
+            <th>Item</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td>Hot Chocolate</td>
+            <td>sm $3.00</td>
+          </tr>
+          <tr>
+            <td>Tea </td>
+            <td>sm $3.00 <br> lg $4.00 </td>
+          </tr>
+          <tr>
+            <td>Chai</td>
+            <td>sm $4.75 <br>lg $5.25</td>
+          </tr>
+          <tr>
+            <td>Iced Chai</td>
+            <td>sm $3.00 <br> lg $4.00</td>
+          </tr>
+          <tr>
+            <td>Naked Juice</td>
+            <td>sm $3.00 <br> lg $4.00</td>
+          </tr>
+          <tr>
+            <td>Soda</td>
+            <td>sm $4.50 </td>
+          </tr>
+          <tr>
+            <td>Simply Juice</td>
+            <td>sm $3.00 <br> lg $4.00 </td>
+          </tr>
+          <tr>
+            <td>Redbull</td>
+            <td>sm $4.50</td>
+          </tr>
+          <tr>
+            <td>Kombucha</td>
+            <td>bottle $4.75 <br> tap sm $4.50 <br> tap lg $5.50</td>
+          </tr>
+        </table>
+      </div>
+      
+      <div>
+        <h2>Also Not Coffee</h2>
+        <p>Tasty, soft, cripsy. All adjectives for our food menu.</p>
+         <table>
+          <tr>
+            <th>Item</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td>Muffins</td>
+            <td>$3.50</td>
+          </tr>
+          <tr>
+            <td>Pastries </td>
+            <td>$3.50 </td>
+          </tr>
+          <tr>
+            <td>Jimmy Dean's</td>
+            <td>$3.50</td>
+          </tr>
+          <tr>
+            <td>Bagel</td>
+            <td>$3.50 </td>
+          </tr>
+          <tr>
+            <td>Panini</td>
+            <td>sm $3.50</td>
+          </tr>
+        </table>
+      </div>
 
     </div>
   </section> 
 
   <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity" style="color: #F5F5F5;">  
+<footer class="w3-container w3-padding-64 w3-center" style="color: #F5F5F5;">  
   <div class="w3-xlarge w3-padding-32">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>

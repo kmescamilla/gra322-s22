@@ -12,15 +12,24 @@ body {
     font-weight: 300;
 }
 
+.box-time {
+    color: var(--brown);
+    background-color:var(--off-white);
+    padding: 3px;
+}
+
 .big-title{
     font-family: 'Libre Baskerville', serif;
+    color: var(--off-white);
  }
 
 h1 {
-    color: var(--brown);
+    color: var(--off-white);
     font-weight: 500;
-    font-size: 18px;
-    letter-spacing: 1px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-align: center;
+
 }
 
 h2{
@@ -38,12 +47,15 @@ p {
     margin-bottom: 1rem;
 }
 
-ul {
+th {
     color: var(--brown);
-    letter-spacing: 1px;
-    line-height: 1.5;
-    margin-bottom: 1rem;
+    font-weight: 500px;
 }
+
+tr {
+    color: var(--forest-green);
+}
+
 .grid {
     display: grid;
     grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
@@ -54,13 +66,12 @@ ul {
 }
 
 header {
-    background-color: var(--light-borwn);
+    background-color: var(--brown);
     padding: 1rem 0;
 }
 
-.overview {
+.menu {
     background-color: var(--off-white);
-    color: #fff;
     padding: 4rem 0; 
 }
 
@@ -91,4 +102,8 @@ figcaption {
 
 .w3-container {
     background-color: var(--forest-green);
+}
+
+.w3-tag {
+    color: var(--off-white);
 }
