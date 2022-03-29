@@ -21,6 +21,7 @@ body {
 .big-title{
     font-family: 'Libre Baskerville', serif;
     color: var(--off-white);
+    font-size: clamp(36px, 10vw, 100px);
  }
 
 h1 {
