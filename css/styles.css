@@ -10,9 +10,12 @@ h1{
 
 }
 
+p{
+    padding: 0 0% 2% 4%;
+}
+
 .list {
-    padding: 1rem 20rem 80rem 0;
-    margin-left: 50px;
+    padding: 10px 0px 0px 0px;
 }
 
 .smile {
