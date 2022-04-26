@@ -64,10 +64,8 @@ button {
      border-radius: 20px;
 }
 
-h2{
-    font-size: 18px;
-    color: var(--brand-blue);
-    letter-spacing: 1.2px; 
+h3 {
+    font-size: 20px;
 }
 
 footer {
