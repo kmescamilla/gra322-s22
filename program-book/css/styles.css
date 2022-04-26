@@ -64,6 +64,15 @@ button {
      border-radius: 20px;
 }
 
+h2{
+    font-size: 18px;
+    color: var(--brand-blue);
+    letter-spacing: 1.2px; 
+}
+
 footer {
+    color: var(--brand-grey);
     background-color: var(--brand-blue);
+    padding: 20px;
+    flex-wrap: wrap-reverse;
 }
