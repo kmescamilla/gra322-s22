@@ -3,7 +3,7 @@ html {
     --brand-grey: #f2f2f2;
 }
 Body{
-    font-family: Questrial;
+    font-family: Questrial, Helvetica, sans-serif;
     letter-spacing: .5px;
 }
 
