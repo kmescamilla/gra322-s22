@@ -90,10 +90,10 @@ button {
      border-radius: 25px;
 }
 
-figure {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    max-width: 80%;
+.website-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 
 }
 
@@ -106,10 +106,6 @@ figcaption{
 img {
     margin-top: 5px;
     margin-bottom: 15px;
-}
-
-.mobile-two{
-    grid-template-columns: auto;
 }
 
 /* PSAID STYLE */
@@ -125,6 +121,10 @@ img {
     margin-bottom: 15px;
 }
 
+.psaid-sketch {
+    border: 5px solid var(--brand-blue);
+    margin: 1rem;
+}
 /* heavenly wear */
 
 footer {
