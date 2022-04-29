@@ -14,15 +14,27 @@ header {
     width: 100vw;
 }
 
-h3 {
-    padding: 1rem;
-    color: var(--brand-blue);
-    font-size: 1em;
-}
+svg {
+    position: relative;
+    width:100px;
+    animation: rotate 3s linear infinite;
+  }
+  
+  @keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+  }
 
 h1{
     font-size: 18px;
     letter-spacing: 1.2px;
+}
+
+h3 {
+    padding: 1rem;
+    color: var(--brand-blue);
+    font-size: 1em;
 }
 
 .hero {
