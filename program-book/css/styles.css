@@ -127,6 +127,18 @@ img {
 }
 /* heavenly wear */
 
+/* CHARLIES WEB */
+.adjustment-charlie{
+    margin-bottom: -15rem;
+}
+
+.three-website-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+
+}
+
 footer {
     margin-top: 2rem;
     color: var(--brand-grey);
